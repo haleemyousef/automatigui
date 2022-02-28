@@ -1,0 +1,28 @@
+record & repeat
+(start recording/playing -> pause -> stop recording/playing) keys can be changed.
+
+repeat(radio):
+repeat once
+repeat ___ times
+repeat until stopped (key:___)
+repeat for ____ seconds
+
+speed(select):
+x1 - x2 - x3 - x4 - x6 - x8 - x10 - x12 - x16 - x20
+
+drag & drop  Done
+scroll       Done 
+WindowsKey   DOne
+import & export script (JSON) -- add line breakers between commands
+pause key
+changeable exit key
+
+
+foss alternative to remouse and other proprietary windows-only utilities
+
+-r --record 
+
+-p --play
+-s --speed ( Can only be used with -p / Can only be a positive integer / Cannot be more than 20 )
+-t --times ( Can only be used with -p / Can only be a positive integer or 0 to indicate infinity )
+cross-platform GUI mouse/keyoard macro record/play autoclicker for automating tedious/repetitive/redundant tasks with the feature of adjusting speed and the number of repeats.
