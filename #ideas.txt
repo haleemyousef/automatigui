@@ -26,3 +26,19 @@ foss alternative to remouse and other proprietary windows-only utilities
 -s --speed ( Can only be used with -p / Can only be a positive integer / Cannot be more than 20 )
 -t --times ( Can only be used with -p / Can only be a positive integer or 0 to indicate infinity )
 cross-platform GUI mouse/keyoard macro record/play autoclicker for automating tedious/repetitive/redundant tasks with the feature of adjusting speed and the number of repeats.
+
+
+GUI objectives:
+	Make buttons
+	Make sliders
+	Make drop menu
+	Make persistent changeable variables
+	Make choose-file/save-file buttons
+	Make window with certain size
+	
+Program objectives:
+	Make pause key ( count pause time and subtract it from time().time() )
+	Make speed ( divide time().time() saved in JSON file by speed chosen )
+	
+	
+	
